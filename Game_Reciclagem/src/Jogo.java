@@ -9,7 +9,7 @@ import java.awt.event.MouseListener;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
-public class JogoAranha extends JFrame {
+public class Jogo extends JFrame {
 	boolean mousePressionado = false;
 	
 	ImageIcon iconFundo = new ImageIcon(getClass().getResource("fundo.jpg"));
@@ -24,7 +24,7 @@ public class JogoAranha extends JFrame {
 	int posLixoY = 300;
 
 	// Método Construtor
-	public JogoAranha() {
+	public Jogo() {
 		editarJanela();
 		editarComponentes();
 		addMovimentoTeclado();
@@ -127,7 +127,7 @@ public class JogoAranha extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new JogoAranha();
+		new Jogo();
 
 	}
 
